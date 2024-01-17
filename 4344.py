@@ -14,4 +14,4 @@ for i in range (C):
 
     Percent = Count/Score[0]*100
 
-    print('%.3f' % Percent + '%')
+    print('%.3f%%' % Percent)
