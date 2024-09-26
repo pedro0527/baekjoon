@@ -1,12 +1,14 @@
-A, B = map(int, input().split())
-C = int(input())
+H, M = map(int, input().split())
+Time = int(input())
 
-sum = B + C
-while sum >= 60:
-  sum -= 60
-  if A == 23:
-    A = 0
-  else:
-    A += 1
+H += Time // 60
+M += Time % 60
 
-print(A, sum)
+if M >= 60:
+  H += 1
+  M -= 60
+
+if H >= 24:
+  H -= 24
+
+print(H, M)
