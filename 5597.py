@@ -14,3 +14,13 @@ for i in range(30):
 
 print(min(p_num))
 print(max(p_num))
+
+
+# 1~30까지를 배열에 저장하고 입력값 28개를 
+# remove를 사용해서 제거해줄 수 있다.
+# student=[i for i in range(1,31)]
+# for i in range(28):
+#     data=int(input())
+#     student.remove(data)
+# print(min(student))
+# print(max(student))
